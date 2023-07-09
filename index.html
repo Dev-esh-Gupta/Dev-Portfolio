@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/659dd3162b.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="achievement.html">Achievement</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Coder / Developer / Freelancer</p>
+                <h1>Hi, I'm <span>Devesh</span> Gupta<br>From Lucknow</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="short-description">
+                        "Hi, I'm Devesh, persuing MCA from NIT Warangal.
+                        I enjoy Coding and Love to Develop Solution for the world. I am very 
+                        Quick Learner with curious state of mind. I love travelling"<br>
+                        "<span> I Develop the things that make others life easier! </span>"
+                    </p>
+                    <hr>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Frontend Development</span><br>
+                                HTML, CSS, JS, Bootstrap
+                            </li>
+                            <li>
+                                <span>Backend Development</span><br>
+                                Java, PHP, C++
+                            </li>
+                            <li>
+                                <span>DataBase</span><br>
+                                SQL
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Representative Of Class</span><br>
+                                I am a class CRC in my ongoing course MCA. I also repressented my class in my Graduation.
+                            </li>
+                            <li>
+                                <span>Worked as a teacher</span><br>
+                                I was a home tutor for 5 years. I taught Computer, Mathematics and Science.
+                            </li>
+                            <li>
+                                <span>Worked as a Field Executive</span><br>
+                                I worked 8 month for Field Varification Company named Sharp Research Services.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2022-present</span><br>
+                                On Going Degree Program called MCA from NIT-Warangal.
+                            </li>
+                            <li>
+                                <span>2016-2019</span><br>
+                                BSc. Computer Application Graduate from Lucknow Christian Degree College, Lucknow
+                            </li>
+                            <li>
+                                <span>2013-2015</span><br>
+                                I did my Intermideate from Shivpati Inter College.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="copyright">
+            <p>Copyright : Made with <i class="fa-solid fa-heart"></i> by Devesh Gupta</p>
+        </div>
+
+</body>
+</html>
